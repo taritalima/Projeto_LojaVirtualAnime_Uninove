@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Animes_Tshirt</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="shortcut icon" href="images/logo.png">
+</head>
+
+<body>
+
+    <nav id="nav">
+        <a href="#Animes_Tshirt"></a>
+        <ul>
+            <a href="index.html">
+                <img class="logo" src=" images/logo.png" alt="logo">
+            </a>
+            <label class="logo2">A</label>
+            <label class="logo3">NIME'S T-SHIRT</label>
+            <li class ="telainicial"><a href="index.html">Tela Inicial</a></li>
+            <li class ="cadastro"><a href="cadastro2.html">Cadastro</a></li>
+            <li class ="contato"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class='container'>
+        <div class='card'>
+            <h1> Entrar </h1>
+
+            <div id='msgError'></div>
+
+            <div class='label-float'>
+                <input type='text' id='usuario' paceholder='' required>
+                <label id='userLabel' for='usuario'>Usuario</label>
+            </div>
+
+            <div class='label-float'>
+                <input type='password' id='senha' paceholder='' required>
+                <label id='senhaLabel' for='senha'>Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class='justify-center'>
+                <button onclick='entrar()'>Entrar</button>
+            </div>
+
+            <div class='justify-center'>
+            </div>
+
+            <p> Não tem uma conta?
+                <a href='http://127.0.0.1:5500/cadastro2.html'> Cadastre-se </a>
+            </p>
+
+        </div>
+    </div>
+    <script src="./js/login.js"> </script>
+
+</body>
+
+</html>

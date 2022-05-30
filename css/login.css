@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+  background-image: url("../images/fundo_login.png");
+  padding: 0;
+  margin: 0;
+  font-family: Nunito, sans-serif;
+  color: #1c1c1c;
+  background-color: #7b7272;
+  
+}
+
+.form-box {
+  border-radius: 20px;
+  width: 1000px;
+  height: 730px;
+  background: #fff;
+  font-family: Lato;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid #2c0135;
+}
+
+.form-box .form-input {
+  border: none;
+  background: #eee;
+  width: 100%;
+  /* text-align: center; */
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  height: 40px;
+}
+
+.form-box .form-btn {
+  border: none;
+  background: #2c0135;
+  width: 100%;
+  height: 50px;
+  font-size: large;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
+.link_cadastro {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.link_login {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+.footer {
+  text-decoration: none
+}
+
+@media screen and(max-width: 340px) {
+  .form-box {
+      width: 100vw;
+      height: 100vh;
+  }
+}
+
+
+nav {
+  padding-top: 13px;
+  display: flex;
+  background-color: #2c0135;
+  box-shadow: 0px 0px 0px rgb(33, 31, 33);
+  
+
+}
+
+nav>a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: Yellowtail, serif;
+  
+}
+
+nav ul {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  list-style: none;
+
+}
+
+nav ul li {
+  text-align: center;
+  width: 200px;  
+
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #7b7272;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.logo2 {
+
+  color: #f075f3;
+  font-family: "blippo";
+  font-size: 3vmax;
+
+}
+
+.logo3 {
+
+  margin-left: -0.5%;
+  color: #f075f3;
+  font-family: "blippo";
+  font-weight: bold;
+
+}
+
+.telainicial
+{
+
+  margin-left: 600px;
+  margin-right: -50px;
+  font-family: Asap, sans-serif;
+  color: #7b7272;
+
+
+}
+
+
+.cadastro{
+
+    margin-right: -50px;
+    font-family: Asap, sans-serif;
+    color: #7b7272;
+}
+
+.login {
+
+  margin-right: -50px;
+  font-family: Asap, sans-serif;
+  color: #7b7272;
+
+}
+
+
+:link:hover{
+
+  color:inherit;
+  color: #f075f3;
+}
+
+
+.info_nav {
+  align-content: flex-end;
+  display: flex;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  border: 5px solid #2c0135;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c0135;
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #272262;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #4038a0;
+}
+
+.label-float label{
+  color: #272262;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #4038a0
+}
+
+button{
+  border: none;
+  background: #2c0135;
+  width: 50%;
+  height: 50px;
+  font-size: large;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+
+button:hover{
+
+  color: #f075f3;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p{
+  color: #2c0135;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a{
+  color: #2c0135;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #272262;
+}
+
+ #msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #d62b2b60;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
